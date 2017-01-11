@@ -5,15 +5,14 @@ _Chronolog_ is a markup language based on [Markdown](https://en.wikipedia.org/wi
 
 ## Example
 ```
-## So 2016-12-31
-08.00: Breakfast with `@Jane` at `#home`.
-10.00 - 11.00: Starting my new project Chronolog.
-11.00 - 12.00: Lunch with `@Lucy` in `#Royal_Caffe`.
-14.00 - 16.00: Playing football with my friends - `#sport,long_street`.
+## Sa 2016-12-31
+* 08.00: Breakfast with @Jane at #home.
+* 10.00 - 11.00: Starting my new project Chronolog.
+* 11.00 - 12.00: Lunch with @Lucy in #Royal_Caffe.
+* 14.00 - 16.00: Playing football with my friends. #sport #long_street
 
-## Pá 2016-12-30
-Long sleeping.
-Playing Carcassonne with @John and @Jack.
+## Fr 2016-12-30
+Long sleeping. Playing Carcassonne with @John and @Jack.
 ```
 
 ### Explanation
