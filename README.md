@@ -16,7 +16,7 @@ Long sleeping. Playing Carcassonne with @John and @Jack.
 ```
 
 ### Explanation
-* __Day item__ is a basic Chronolog "building stone". It's a text block starting with `## WD YYYY-MM-DD` title. Note, that two day-name sets are supported: czech (Po, Út, St, Čt, Pá, So, Ne) and english (Mo, Tu, We, Th, Fr, Sa, Su). Day items are divided with at least single empty line.
+* __Day item__ is a basic Chronolog "building stone". It's a text block starting with __day title__ -- title starting with # and containing `YYYY-MM-DD`. So valid day title strings are f.e.: `# 2017-01-24`, `### anything 2017-01-24 anything else`. Day items are divided with at least single empty line.
 * __Activity__ is represented with a single line contained in the day item. It can start with __clock__ point (08.00) or __clock line__ (09.00 - 10.20).
 * __Tag__ is a single unique word starting with #. It's useful for frequently used themes, places etc.
 * __Person__ is a single unique word starting with @ meaning concrete person.
